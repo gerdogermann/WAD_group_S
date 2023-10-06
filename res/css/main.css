@@ -1,8 +1,7 @@
-* {
-    font-family: "Times New Roman", serif;
+*{
+    font-family: sans-serif;
     box-sizing: border-box;
 }
-
 body {
     line-height: 1.6;
     margin: 0;
@@ -13,11 +12,18 @@ ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    /*
+      list-style: none = No marker is shown
+    */
 }
 
 a {
     color: #34495e;
     text-decoration: none;
+    /*
+      text-decoration: none - is used here to not show underlining under an anchor element when a mouse hovers over it.
+      Comment it out and check the result on the page.
+    */
 }
 
 .logo {
@@ -29,8 +35,10 @@ section {
     padding: 10px 15px;
     margin: 10px;
     display: block;
+    /*
+      display: block - displays an element as a block element. It starts on a new line, and takes up the whole width
+   */
 }
-
 .header {
     padding-top: .5em;
     padding-bottom: .5em;
@@ -42,7 +50,6 @@ section {
     top: 0;
     border-radius: 5px;
 }
-
 .nav {
     margin-top: 5px;
 }
@@ -71,7 +78,6 @@ section {
     .nav {
         display: flex;
     }
-
     .header {
         flex-direction: column;
         align-items: center;
@@ -88,7 +94,6 @@ section {
         justify-content: space-between;
     }
 }
-
 @media (max-width: 800px) {
     .logo {
         display: none;
