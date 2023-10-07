@@ -1,0 +1,49 @@
+form {
+    border: 3px solid #f1f1f1;
+}
+
+.form-container {
+    display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.form {
+    padding: 15px;
+}
+
+label {
+    padding: 0px 15px;
+    margin: 8px 0;
+}
+
+textarea, input[type=file], input[type=submit] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+textarea {
+    width:fit-content;
+    height:min-content;
+    border: 1px solid #ccc;
+}
+
+input[type=file] {
+    padding: 10px 0px;
+}
+
+button {
+    background-color: #092747;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.7;
+}

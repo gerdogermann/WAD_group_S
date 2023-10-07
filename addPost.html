@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -5,33 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="res/css/main.css">
+    <link rel="stylesheet" href="res/css/addPost.css">
     <title>Add Post</title>
 </head>
 
+<body>
     <header class="header">
         <ul class="nav">
             <li><a href="#">Home</a></li>
-            <li><a href="#">Add Post</a></li>
-            <li><a href="#">Login</a></li>
         </ul>
 
         <a class="logo" href="#"><img src="res/images/me.png" width="50" height="50" alt="My picture"></a>
     </header>
 
-<body>
     <div class="form-container">
-        <form action="backend_end_path" class="form">
+        <form action="index.html" method="post">
             <div class="form">
-                <label for="post">Post body</label>
-                <input type="text" id="post" h="textArea"><br>
+                <label>Post body</label>
+                <textarea name="post_body" cols="50" rows="10" placeholder="Enter text"></textarea><br>
+                <label >Select file</label>
+                <input type="file" name="post_file"><br>
+                <button type="submit">Create post</button>
             </div>
-            <div class="form">
-                <label for="file">Select file</label>
-                <input type="button" id="file" value="Choose file"><br>
-            </div>
-            <button type="submit">Create post</button>
         </form>
     </div>
 </body>
-
 </html>
