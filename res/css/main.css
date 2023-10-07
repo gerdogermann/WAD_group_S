@@ -6,6 +6,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 ul {
@@ -50,6 +51,7 @@ section {
     top: 0;
     border-radius: 5px;
 }
+
 .nav {
     margin-top: 5px;
 }
@@ -99,3 +101,87 @@ section {
         display: none;
     }
 }
+
+.messages {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.message-wrapper {
+    border-radius: 25px;
+    border: 2px solid #2a2cc9;
+    background-color: rgb(231, 231, 231);
+    margin: 50px;
+    width: 350px;
+    padding: 20px;
+    padding-bottom: 5px;
+  }
+
+.message-wrapper div p {
+    margin: 0%;
+}
+
+.message-header {
+    display: flex;
+    align-items: center;
+    gap: 170px;
+}
+
+.message-header img {
+    width: 30px;
+    height: 30px;
+}
+
+
+.message-body > p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.message-body img {
+    width: 300px;
+}
+
+.message-body p::first-letter {
+    font-weight: bold;
+    color: red;
+}
+
+img ~ #text::first-letter {
+    color: #2ad400;
+}
+
+.like-button img {
+    width: 30px;
+    height: 30px;
+}
+.like-button button {
+    border-radius: 25px;
+    background-image: url(/res/images/like.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 0;
+    margin: 10px;
+    margin-left: 0%;
+}
+.like-button button:focus {
+    background-image: url(/res/images/like_pink.png);
+}
+.like-button button:hover {
+    background-image: url(/res/images/like_pink.png);
+}
+#footer {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border: 1px solid #646174;
+    background-color: #a2ccea;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-radius: 5px;
+}
+
