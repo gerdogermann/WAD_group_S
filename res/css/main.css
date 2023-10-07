@@ -65,7 +65,7 @@ section {
 
 /* Pseudo-class selector */
 .nav a:hover {
-    background-color: #7ebeb6;
+    background-color: lightgrey;
     color: #092747;
 }
 
@@ -110,7 +110,8 @@ button {
 }
 
 /* Pseudo-class selector */
-.form :hover {
+.form [type="button"]:hover,
+button:hover {
     background-color:darkgrey;
              }
 
