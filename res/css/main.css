@@ -1,12 +1,12 @@
-* {
+*{
     font-family: sans-serif;
     box-sizing: border-box;
-  }
-
+}
 body {
     line-height: 1.6;
     margin: 0;
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 ul {
@@ -19,9 +19,12 @@ ul {
 }
 
 a {
-    padding-left: 10px;
-    color: white;
+    color: #34495e;
     text-decoration: none;
+    /*
+      text-decoration: none - is used here to not show underlining under an anchor element when a mouse hovers over it.
+      Comment it out and check the result on the page.
+    */
 }
 
 .logo {
@@ -37,12 +40,11 @@ section {
       display: block - displays an element as a block element. It starts on a new line, and takes up the whole width
    */
 }
-
 .header {
     padding-top: .5em;
     padding-bottom: .5em;
     border: 1px solid #646174;
-    background-color: grey;
+    background-color: #a2ccea;
     box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
     position: fixed;
     width: 100%;
@@ -69,57 +71,13 @@ section {
     color: #092747;
 }
 
-form.form {
-    display: table;
-    margin: 10px 0px 50% 50%;
-    padding: 10px;
-    background-color:lightgrey;
-     }
-
-div.form {
-    display: table-row;
-    padding: 10px 15px;
-    color: #34495e;
-    font-size: .99em;
-       }
-
-label,
-input {
-    display: table-cell;
-    margin-bottom: 10px;
-}
-
-label {
-    padding-right: 10px;
-}
-
-[type="text"] {
-    height: 100px;
-    ;
-}
-
-[type="button"],
-button {
-    color: white;
-    background-color:grey;
-    width: 100px;
-}
-
-button {
-    text-align: center;
-}
-
-/* Pseudo-class selector */
-.form [type="button"]:hover,
-button:hover {
-    background-color:darkgrey;
-             }
+/*
+     Applies when the browser's width is 800px wide or wider:
+   */
 
 @media (min-width: 800px) {
     .header,
-    .nav,
-    .form
- {
+    .nav {
         display: flex;
     }
     .header {
@@ -132,7 +90,7 @@ button:hover {
  Applies when the browser's width is 1000px wide or wider:
  */
 
- @media (min-width: 1000px) {
+@media (min-width: 1000px) {
     .header {
         flex-direction: row;
         justify-content: space-between;
@@ -143,3 +101,87 @@ button:hover {
         display: none;
     }
 }
+
+.messages {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.message-wrapper {
+    border-radius: 25px;
+    border: 2px solid #2a2cc9;
+    background-color: rgb(231, 231, 231);
+    margin: 50px;
+    width: 350px;
+    padding: 20px;
+    padding-bottom: 5px;
+  }
+
+.message-wrapper div p {
+    margin: 0%;
+}
+
+.message-header {
+    display: flex;
+    align-items: center;
+    gap: 170px;
+}
+
+.message-header img {
+    width: 30px;
+    height: 30px;
+}
+
+
+.message-body > p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.message-body img {
+    width: 300px;
+}
+
+.message-body p::first-letter {
+    font-weight: bold;
+    color: red;
+}
+
+img ~ #text::first-letter {
+    color: #2ad400;
+}
+
+.like-button img {
+    width: 30px;
+    height: 30px;
+}
+.like-button button {
+    border-radius: 25px;
+    background-image: url(/res/images/like.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 0;
+    margin: 10px;
+    margin-left: 0%;
+}
+.like-button button:focus {
+    background-image: url(/res/images/like_pink.png);
+}
+.like-button button:hover {
+    background-image: url(/res/images/like_pink.png);
+}
+#footer {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border: 1px solid #646174;
+    background-color: #a2ccea;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-radius: 5px;
+}
+
