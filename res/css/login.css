@@ -17,7 +17,9 @@ input[type=text], input[type=password] {
     justify-content: center;
     align-items: center;
 }
-
+.welcome + .container {
+    background-color: #f1f1f1;
+}
 .createacc {
     color: dodgerblue;
     display: flex;
