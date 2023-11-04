@@ -15,8 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 window.onload = function() {
 
-    fetch('https://api.npoint.io/beecbe80379acd9a45cb')
-    //fetch('res/json/posts.json')
+    fetch(/*'https://api.npoint.io/beecbe80379acd9a45cb')*/'res/json/posts.json')
         .then((response) => response.json())
         .then(json => {
             console.log(json);
@@ -61,7 +60,22 @@ window.onload = function() {
         messageBody.appendChild(message)
 
         const likeButton = document.createElement("DIV");
-        likeButton.className = "like-button"
+
+        if (post.liked) {
+            likeButton.className = "like-button-liked"
+        } else {
+            likeButton.className = "like-button-unliked"
+        }
+
+        likeButton.addEventListener('click', function () {
+            if (likeButton.className === "like-button-liked"){
+                likeButton.className = "like-button-unliked"
+                post.liked=false
+            } else {
+                likeButton.className = "like-button-liked"
+                post.liked=true
+            }
+        });
 
         const button = document.createElement("BUTTON");
         button.type = "button"
