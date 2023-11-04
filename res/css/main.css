@@ -183,5 +183,37 @@ img ~ #text::first-letter {
     width: 100%;
     bottom: 0;
     border-radius: 5px;
+    text-align: center;
 }
+#footer p {
+    font-size: 200%;
+    margin: 0;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    left: -20px;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.dropdown-menu li {
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-menu li:hover {
+    background-color: #f1f1f1;
+}
+
 
