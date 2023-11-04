@@ -2,23 +2,23 @@
     {
       "id": 1,
       "profilePicture": "res/images/me.png",
-      "date": "Oct 22, 2023",
-      "picture": "res/images/pink.jpg",
-      "text": "Tartu pink",
+      "date": "Nov 10, 2023",
+      "picture": "res/images/kingitused.jpg",
+      "text": "Kas oled juba mõelnud, mida oma lähedastele jõuludeks kinkida?",
       "liked": false
     },
     {
       "id": 2,
       "profilePicture": "res/images/me.png",
-      "date": "Oct 10, 2023",
-      "picture": "",
-      "text": "Huvitav mis täna piros toimub???",
+      "date": "Nov 4, 2023",
+      "picture": "res/images/talisport.jpg",
+      "text": "Mis on sinu lemmik talispordiala?",
       "liked": false
     },
     {
       "id": 3,
       "profilePicture": "res/images/me.png",
-      "date": "2023-11-04",
+      "date": "Oct 31, 2023",
       "picture": "",
       "text": "Täna on ilus päev, lähme õue jalutama!",
       "liked": false
@@ -26,73 +26,65 @@
     {
       "id": 4,
       "profilePicture": "res/images/me.png",
-      "date": "2023-11-04",
-      "picture": "",
-      "text": "Mis on teie lemmik asi sügise juures?",
+      "date": "Oct 24, 2023",
+      "picture": "res/images/raamatud.png",
+      "text": "Mis on sinu lemmikraamat?",
       "liked": false
     },
     {
       "id": 5,
       "profilePicture": "res/images/me.png",
-      "date": "2023-11-04",
-      "picture": "",
-      "text": "Kas olete juba käinud tänavu kino vaatamas?",
+      "date": "Oct 22, 2023",
+      "picture": "res/images/pink.jpg",
+      "text": "Tartu pink",
       "liked": false
     },
     {
       "id": 6,
       "profilePicture": "res/images/me.png",
-      "date": "2023-11-04",
+      "date": "Oct 10, 2023",
       "picture": "",
-      "text": "Mis on teie lemmik raamat?",
+      "text": "Huvitav mis täna piros toimub???",
       "liked": false
     },
     {
       "id": 7,
       "profilePicture": "res/images/me.png",
-      "date": "2023-11-04",
-      "picture": "",
-      "text": "Kas olete juba mõelnud, mida kingite oma lähedastele jõuludeks?",
+      "date": "Sep 28, 2023",
+      "picture": "res/images/ski_resort.png",
+      "text": "Üli cool mägi!!!",
       "liked": false
     },
     {
       "id": 8,
       "profilePicture": "res/images/me.png",
-      "date": "2023-11-04",
-      "picture": "",
-      "text": "Mis on teie lemmik talisport?",
+      "date": "Sep 20, 2023",
+      "picture": "res/images/panda.jpg",
+      "text": "I ♥ pandas!",
       "liked": false
     },
     {
       "id": 9,
       "profilePicture": "res/images/me.png",
-      "date": "2023-11-04",
-      "picture": "",
-      "text": "Kas olete juba mõelnud, mida teha uusaastal?",
+      "date": "Sep 12, 2023",
+      "picture": "res/images/sügis.jpeg",
+      "text": "Mis sulle sügise juures kõige rohkem meeldib?",
       "liked": false
     },
     {
       "id": 10,
       "profilePicture": "res/images/me.png",
-      "date": "2023-11-04",
-      "picture": "",
-      "text": "Mis on teie lemmik asi Tartu juures?",
+      "date": "Sep 1, 2023",
+      "picture": "res/images/ülikool.jpg",
+      "text": "Kas sina oled õppinud Tartu Ülikoolis?",
       "liked": false
     },
     {
       "id": 11,
       "profilePicture": "res/images/me.png",
-      "date": "2023-11-04",
+      "date": "Aug 19, 2023",
       "picture": "",
-      "text": "Kas olete juba käinud Tartu Ülikoolis õppimas?",
-      "liked": false
-    },
-    {
-      "id": 12,
-      "profilePicture": "res/images/me.png",
-      "date": "2023-11-04",
-      "picture": "",
-      "text": "Mis on teie lemmik koht Tartus?",
+      "text": "Mis on sinu lemmikkoht Tartus?",
       "liked": false
     }
 ]
