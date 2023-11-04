@@ -15,7 +15,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 window.onload = function() {
 
-    fetch('res/json/posts.json')
+    fetch('https://api.npoint.io/beecbe80379acd9a45cb')
+    //fetch('res/json/posts.json')
         .then((response) => response.json())
         .then(json => {
             console.log(json);
